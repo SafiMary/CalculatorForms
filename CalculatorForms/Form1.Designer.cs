@@ -114,8 +114,6 @@
             // 
             // buttonOne
             // 
-            this.buttonOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonOne.BackgroundImage")));
-            this.buttonOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOne.Location = new System.Drawing.Point(469, 188);
             this.buttonOne.Name = "buttonOne";
@@ -204,9 +202,9 @@
             this.groupBoxChoice.Controls.Add(this.labelForm);
             this.groupBoxChoice.Controls.Add(this.labelColour);
             this.groupBoxChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBoxChoice.Location = new System.Drawing.Point(12, 78);
+            this.groupBoxChoice.Location = new System.Drawing.Point(64, 78);
             this.groupBoxChoice.Name = "groupBoxChoice";
-            this.groupBoxChoice.Size = new System.Drawing.Size(230, 349);
+            this.groupBoxChoice.Size = new System.Drawing.Size(178, 349);
             this.groupBoxChoice.TabIndex = 19;
             this.groupBoxChoice.TabStop = false;
             this.groupBoxChoice.Text = "Изменение цвета и формы";
@@ -224,7 +222,7 @@
             // 
             this.buttonClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonClose.BackgroundImage")));
             this.buttonClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonClose.Location = new System.Drawing.Point(275, 218);
+            this.buttonClose.Location = new System.Drawing.Point(314, 218);
             this.buttonClose.Name = "buttonClose";
             this.buttonClose.Size = new System.Drawing.Size(75, 55);
             this.buttonClose.TabIndex = 20;

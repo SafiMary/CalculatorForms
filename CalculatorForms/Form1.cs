@@ -25,7 +25,7 @@ namespace CalculatorForms
             // var size = SystemInformation.PrimaryMonitorMaximizedWindowSize;
             // Получение графического разрешения монитора
             var size002 = SystemInformation.PrimaryMonitorSize;
-            Text = $"{size002.Width} : {size002.Height}";
+            //Text = $"{size002.Width} : {size002.Height}";
             // Запрещаем пользователю изменять размер формы
             // и устанавливаем его кратно разрешению монитора
             this.MaximumSize = this.MinimumSize
@@ -172,7 +172,9 @@ namespace CalculatorForms
                     return;
                 // установка цвета 
                 this.BackColor = colorDialog1.Color;
-           
+            buttonOne.BackColor = colorDialog1.Color;
+            buttonTwo.BackColor = colorDialog1.Color;
+            buttonSave.BackColor = colorDialog1.Color;
             }
 
             private void buttonClose_Click(object sender, EventArgs e)//запасная кнопка закрытия формы
